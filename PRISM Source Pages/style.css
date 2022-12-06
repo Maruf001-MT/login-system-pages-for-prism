@@ -694,10 +694,7 @@ ul {
 .fxt-template-layout3 .fxt-form p span {
     display: block;
 }
-.fxt-template-layout3 .fxt-form .file_input{
-    position: relative;
-    right: -100px;
-}
+
 .fxt-template-layout3 .fxt-form form .input-label {
     color: #595959;
     margin-bottom: 8px;
