@@ -17,8 +17,6 @@
     cursor: pointer;
     display: inline-block;
     overflow: hidden;
-    padding: 0.625rem 1.25rem;
-    /* 10px 20px */
 }
 
 .no-js .inputfile+label {
@@ -65,7 +63,7 @@
     border-radius: 50%;
     background-color: #595959;
     padding: 20px;
-    /* margin: 0 auto; */
+    margin: 0 auto;
 }
 .file_input .box{
     display: flex;
