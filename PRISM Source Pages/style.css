@@ -511,7 +511,7 @@ ul {
     display: flex;
     -webkit-box-align: center;
     -ms-flex-align: center;
-    align-items: center;
+    /* align-items: center; */
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
@@ -532,6 +532,9 @@ ul {
     top: 0;
     position: absolute;
     z-index: -1;
+}
+.fxt-template-layout3 .main_section{
+    margin-top: 40px;
 }
 
 .fxt-template-layout3 .fxt-checkbox-area {
@@ -607,7 +610,7 @@ ul {
 }
 
 .fxt-template-layout3 .fxt-header p {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-weight: bold;
     color: #565656;
 }
@@ -723,7 +726,7 @@ ul {
 }
 
 .fxt-template-layout3 .fxt-form .form-control {
-    min-height: 50px;
+    min-height: 40px;
     -webkit-box-shadow: none;
     box-shadow: none;
     border: 1px solid #afafaf;
@@ -1087,20 +1090,19 @@ ul {
 }
 .fxt-template-layout3 .footer{
     display: flex;
-    justify-content: space-between;
-    position: relative;
-    bottom: -45px;
+    position: absolute;
     font-size: 0.9rem;
+    bottom: 0px;
 }
 .fxt-template-layout3 .footer a{
     color: #90C63E;
-    margin-right: 70px;
+    margin-left: 155px;
 }
 .fxt-template-layout3 .footer p:nth-child(1){
-    margin-left: 100px;
+    margin-left: 150px;
 }
 .fxt-template-layout3 .footer p:nth-child(2){
-    margin-left: 55px;
+    margin-left: 100px;
 }
 @media only screen and (max-width: 575px) {
     .fxt-template-layout3 .footer{
@@ -1122,6 +1124,6 @@ ul {
         margin-left: 0px;
     }
     .fxt-template-layout3 .footer a{
-        margin-right: 0px;
+        margin-left: 0px;
     }
-}
+} 
