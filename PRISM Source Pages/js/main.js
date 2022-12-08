@@ -1,3 +1,14 @@
+/*
+<<<< This template is made by Maruf Islam (Web Developer) >>>
+
+✔ Explore my more work: http://primeit.elementfx.com/portfolio
+✔ Get my best services: https://www.fiverr.com/marufjisan
+✔ Mail me: jisanmaruf562@gmail.com 
+✔ My Website: http://primeit.elementfx.com/
+
+<<<<<<<<<<<<<<<<<<<<<<<<<Thanks>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+*/
+
 (function($) {
     "use strict";
 
